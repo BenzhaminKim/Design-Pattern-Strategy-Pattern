@@ -43,8 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\Duck.cs" />
+    <Compile Include="Client\ModelDuck.cs" />
+    <Compile Include="Client\RedheadDuck.cs" />
+    <Compile Include="Client\RubberDuck.cs" />
+    <Compile Include="FlyBehavior\IFlyBehavior.cs" />
+    <Compile Include="FlyBehavior\FlyNoWay.cs" />
+    <Compile Include="FlyBehavior\FlyWithWings.cs" />
+    <Compile Include="FlyBehavior\NewFly.cs" />
+    <Compile Include="QuackBehavior\MuteQuack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuackBehavior\NewQuack.cs" />
+    <Compile Include="QuackBehavior\Quack.cs" />
+    <Compile Include="QuackBehavior\IQuackBehavior.cs" />
+    <Compile Include="QuackBehavior\Squeak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
